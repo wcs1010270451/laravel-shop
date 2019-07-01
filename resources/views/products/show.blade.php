@@ -74,8 +74,7 @@
     // 收藏
     $('.btn-favor').click(function () {
       // 发起一个 post ajax 请求，请求 url 通过后端的 route() 函数生成。
-      axios.post('{{ route('products.favor', ['product' => $product->id]) }}')
-        .then(function () { // 请求成功会执行这个回调
+      axios.post('{{ route('products.favor', ['product' => $product->id]) }}').then(function () { // 请求成功会执行这个回调
           swal('操作成功', '', 'success').then(function () {  // 这里加了一个 then() 方法
               location.reload();
             });
@@ -94,10 +93,8 @@
     });
     //取消收藏
     $('.btn-disfavor').click(function () {
-      axios.delete('{{ route('products.disfavor', ['product' => $product->id]) }}')
-        .then(function () {
-          swal('操作成功', '', 'success')
-            .then(function () {
+      axios.delete('{{ route('products.disfavor', ['product' => $product->id]) }}').then(function () {
+          swal('操作成功', '', 'success').then(function () {
               location.reload();
             });
         });
