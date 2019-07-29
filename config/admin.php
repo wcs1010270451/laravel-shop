@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'Laravel Shop',
+    'name' => 'Wcs Shop',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Laravel</b> Shop',
+    'logo' => '<b>Wcs</b> Shop',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<b>LS</b>',
+    'logo-mini' => '<b>WS</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -85,7 +85,7 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => 'Laravel Shop 管理后台',
+    'title' => 'Wcs Shop 管理后台',
 
     /*
     |--------------------------------------------------------------------------
